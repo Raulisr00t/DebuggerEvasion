@@ -257,7 +257,7 @@ BOOL DebugBreakCheck() {
 BOOL OutputDebugStringCheck() {
 
 	SetLastError(1);
-	OutputDebugStringW(L"MalDev Academy");
+	OutputDebugStringW(L"Raulisr00t");
 
 	if (GetLastError() == 0) {
 		return TRUE;
